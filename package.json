@@ -1,0 +1,36 @@
+{
+  "name": "ts-jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest --watch --no-cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^17.0.3",
+    "ts-jest": "^17.0.3",
+    "typescript": "^2.1.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
+    "testRegex": "(/test/.*|(test|spec))\\.(ts|tsx)$",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  }
+}
