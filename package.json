@@ -5,11 +5,12 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "jest --watch --no-cache",
-    "start": "webpack-dev-server --progress --colors --host 192.168.34.10 --hot --config ./webpack.config.js"
+    "start": "webpack-dev-server --progress --colors --host 192.168.34.10 --config ./webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^16.0.1",
     "awesome-typescript-loader": "^3.0.0-beta.16",
     "jest": "^17.0.3",
     "ts-jest": "^17.0.3",
