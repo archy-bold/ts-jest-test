@@ -1,6 +1,6 @@
 import "jest";
 import * as actions from "./index";
-import * as actionTypes from "@app/constants/actionTypes";
+import * as actionTypes from "../../constants/actionTypes";
 import { RequestLogin, ResponseError, ResponseAuth, Action } from "@app/models/api";
 
 describe("auth actions", () => {

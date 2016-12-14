@@ -1,5 +1,5 @@
 "use strict";
-var actionTypes = require("@app/constants/actionTypes");
+var actionTypes = require("../../constants/actionTypes");
 var requestLogin = actionTypes.LOGIN_REQUEST;
 exports.requestLogin = requestLogin;
 var loginSuccess = actionTypes.LOGIN_SUCCESS;

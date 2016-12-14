@@ -1,4 +1,4 @@
-import * as actionTypes from "@app/constants/actionTypes";
+import * as actionTypes from "../../constants/actionTypes";
 import { RequestLogin, ResponseError, ResponseAuth } from "@app/models/api";
 
 const requestLogin =  actionTypes.LOGIN_REQUEST;

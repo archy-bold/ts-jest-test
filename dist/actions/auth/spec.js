@@ -1,7 +1,7 @@
 "use strict";
 require("jest");
 var actions = require("./index");
-var actionTypes = require("@app/constants/actionTypes");
+var actionTypes = require("../../constants/actionTypes");
 describe("auth actions", function () {
     it("should create a request login action", function () {
         var loginRequest = {
