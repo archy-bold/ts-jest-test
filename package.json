@@ -4,14 +4,18 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "test": "jest --watch --no-cache"
+    "test": "jest --watch --no-cache",
+    "start": "webpack-dev-server --progress --colors --host 192.168.34.10 --hot --config ./webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "awesome-typescript-loader": "^3.0.0-beta.16",
     "jest": "^17.0.3",
     "ts-jest": "^17.0.3",
-    "typescript": "^2.1.4"
+    "typescript": "^2.1.4",
+    "webpack": "^2.1.0-beta.28",
+    "webpack-dev-server": "^2.1.0-beta.12"
   },
   "jest": {
     "moduleFileExtensions": [
